@@ -1,4 +1,5 @@
 let num=5;
+
 if(num==1){
     console.log("1 is not a prime not a composite number");
 }
