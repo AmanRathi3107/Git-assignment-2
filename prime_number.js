@@ -1,3 +1,5 @@
+//  Question 1 : Check To prime Number or not 
+
 let num=5;
 
 if(num==1){
@@ -9,3 +11,17 @@ else if(num%2==0 || num%3==0){
 else{
     console.log("${num} is Prime Number")
 }
+
+
+// Question 2 : Check given string is Palindrome or not 
+
+let str="naman";
+let nstr="";
+
+for (i=0;i<=str.length-1;i++){
+    nstr=nstr+i;
+}
+
+nstr==str ? console.log("Yes It is an Palindrome")
+:console.log("No Its Not  Palindrome");
+
