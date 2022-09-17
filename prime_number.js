@@ -18,7 +18,7 @@ else{
 let str="naman";
 let nstr="";
 
-for (i=0;i<=str.length-1;i++){
+for (i=str.length-1;i>=0;i--){
     nstr=nstr+i;
 }
 
